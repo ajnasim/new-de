@@ -1,0 +1,682 @@
+
+/* font-family: 'Rubik', sans-serif;
+font-family: 'Poppins', sans-serif; ;*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', sans-serif;
+  margin: 0px;
+  color: #1c3354;
+  
+  
+}
+body {
+  font-family: 'Khula', sans-serif; 
+  color: #7b8491;
+  font-weight: 400;
+  overflow-x:hidden ;
+  font-size: 15px;
+    
+    
+}
+
+a { text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+ul{
+  margin: 0;
+  padding: 0
+}
+li{
+  list-style: none;
+}
+
+.mid{
+	width:1170px ;
+	margin: auto;
+}
+
+a.thm-btn {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 40px;
+    background-color: #00d786;
+    border-radius: 35px;
+
+}
+
+/* default-css END ================================== */
+
+
+
+.header-area {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    width: max-content;
+    float: left;
+}
+
+.logo h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1c3354;
+    margin: 0;
+}
+
+.menu {
+    width: max-content;
+    margin: auto;
+}
+.menu i.fas.fa-align-justify{
+    opacity: 0;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    font-size: 14px;
+    color: #2c303e;
+    font-weight: 500;
+}
+
+ .h-btn a {
+    color: #1c3354;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 40px;
+    border: 1px solid #00d786;
+    border-radius: 35px;
+    margin-top: 10px !important;
+    display: block;
+    background: none;
+}
+
+.hero-area {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #f5f8fa;
+}
+
+.hero {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 150px 0 130px;
+}
+
+.hero-left {
+    width: 50%;
+    margin: auto;
+}
+
+.hero-right {
+    width: 50%;
+    margin: auto;
+}
+
+.hero-right img {
+}
+
+.hero-left h3 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #00c867;
+}
+
+ h2.title {
+    font-size: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #1c3354;
+}
+
+.hero-left p {
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 400;
+    color: #7b8491;
+    width: 450px;
+    padding: 25px 0;
+}
+
+
+
+/* hero area END ================================== */
+
+
+
+.work-area {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.work {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.work-top {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.sec-title {
+    width: max-content;
+    margin: auto;
+}
+
+.sec-title h2 {
+    font-size: 45px;
+    color: #1c3354;
+    font-weight: 600;
+}
+
+.work-btm {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.work-box {
+    width: 280px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 1px 1px 10px #e4dfdf;
+    padding: 40px;
+    position: relative;
+}
+
+.work-box h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.work-box p {
+    line-height: 2;
+}
+.work-box a {
+    padding: 25px 250px 25px 30px;
+    color: #1c3354;
+    font-size: 15px;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    bottom: -70px;
+    text-align: left;
+    box-shadow: 1px 10px 10px #efeaea;
+    opacity: 0;
+    transition: .3s;
+}
+
+.work-box:hover a {
+    opacity: 1;
+}
+
+/* work area END ================================== */
+
+
+.easy {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 100px 0;
+}
+
+.easy-area {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.easy-left {
+    width: 45%;
+    margin: auto;
+}
+.easy-right {
+    width: 45%;
+    margin: 70px -40px 0 40px;
+}
+.easy-right h2 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.easy-right p {width: 450px;float: left;line-height: 2;margin-bottom: 30px;}
+.easy-right img {
+    padding-bottom: 20px;
+}
+.easy-btn {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+/* easy area END ================================== */
+
+
+.feature-area {
+    width: 100%;
+    margin: auto;
+}
+.feature-top {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 40px 0px 80px;
+}
+
+.feature-top p {
+    margin-top: 20px;
+}
+
+.feature-btm {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.feature-box {
+    width: 340px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.feature-box h4 {
+    padding: 25px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.feature-box p {
+    line-height: 2;
+}
+
+
+
+
+/* feature area END ================================== */
+
+
+
+
+.effort.area {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 50px 0 ;
+}
+
+.effort {
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.effort-left {
+    width: 40%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.effor-left img {
+    margin: 20px 0 40px;
+}
+
+.effor-left h2 {
+    font-size: 45px;
+}
+
+.effor-left p {
+    line-height: 2;
+    margin: 20px 0 50px;
+    width: 450px;
+}
+
+.effor-left {
+    width: 80%;
+    float: right;
+}
+
+.effort-right{
+  padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+/* effort area END ================================== */
+
+
+
+.plan-area {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.plan-top {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0 100px;
+}
+
+.plan-top p {
+    margin-top: 30px;
+}
+
+
+.plan-btm {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+}
+
+.plan {
+    border: 1px solid #dedddda1;
+    width: 240px;
+    padding: 25px;
+    text-align: center;
+    margin: 0px 15px;
+    transition: .5s;
+}
+
+.plan h3 {
+    padding: 20px 0 30px;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #e6e4e4;
+}
+
+.plan h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 30px 0;
+}
+.plan:hover {
+    box-shadow: 0px 8px 25px #a5a5c747;
+}
+.plan h4 span {
+    font-weight: 400;
+    font-size: 18px;
+    color: #7b8491;
+}
+
+.plan p {
+    line-height: 2;
+}
+p.p-b {
+    margin-bottom: 20px;
+}
+.plan a {
+    font-size: 13px;
+    font-weight: 500;
+    color: #1c3354;
+    padding: 30px 0 0px;
+    display: block;
+    border-top: 1px solid #dadada;
+    transition: .5s;
+}
+.plan:hover a{
+  color: #00cf75;
+}
+
+/* plan area END ================================== */
+
+
+
+.core-area {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.core {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.core-right {
+    width: 100%;
+    margin: auto;
+    transform: translateX(20%);
+}
+
+.core-right p {
+    margin: 30px 0;
+    width: 450px;
+    line-height: 2;
+}
+
+.core-right h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.core-right p span {
+    padding-left: 200px;
+    color: #d8d8d8;
+}
+
+.core-right h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.core-right h4 span {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+    color: #7b8491;
+}
+
+
+/* core area END ================================== */
+
+
+
+.band-area {
+    width:100%;
+    margin:auto;
+}
+
+.band {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.band img {
+    margin: 0 0px 0 110px;
+}
+
+
+/* band area END ================================== */
+
+.way-area {
+    padding: 50px  0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.way {
+    width: 100%;
+    margin: auto;
+}
+
+.way-top {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.way-top h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.way-btn {
+    width: 100%;
+    margin: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.way-btn input[type="text"] {
+    padding: 26px 265px 26px 20px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+}
+
+.way-btn ::placeholder {
+    color: #7b8491;
+    font-size: 12px;
+}
+
+.way-btn a.thm-btn {
+    padding: 25px 65px;
+    border-radius: 0;
+}
+
+/* way area END ================================== */
+
+
+
+
+
+.foter-area {
+    width: 100%;
+    margin: auto;
+    background-color: #f5f8fa;
+}
+
+.foter {
+    padding: 100px 0;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+p {}
+
+.foter-menu p {
+    width: 350px;
+    line-height: 2;
+}
+
+.foter-menu {
+    margin-right: 60px;
+}
+.foter-menu.menu4 {
+    margin: 0;
+}
+ul.f-social li {
+    display: inline-block;
+    margin: 20px 10px 0;
+    transition: .5s;
+}
+ul.f-social li a i:hover{
+    color: #00cb6d;
+}
+.foter-menu h3 {
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 25px;
+}
+h3.f-logo {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.foter-menu ul li a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #8d96a2;
+    line-height: 2;
+    transition: .5s;
+}
+.foter-menu ul li a:focus{
+    color: #00d786
+}
+
+.f-btm {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0 20px;
+    border-top: 1px solid #cccbcb;
+}
+
+ul.foter-btm-menu li {
+    display: inline-block;
+    margin-left: 40px;}
+
+.f-btm p {
+    width: 70%;
+    text-align: left;
+}
+
+ul.foter-btm-menu li a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #8d96a2;
+}
+ul.foter-btm-menu li a:hover{
+    color: #00d786
+}
+
+ul.foter-btm-menu {
+    float: right;
+}
+
+
+
+
+/* foter area END ================================== */
